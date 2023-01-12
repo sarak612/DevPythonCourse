@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width:25%;
+    padding:10px;
+}
+
+.row::after {
+content: "";
+display: table;
+clear: both;
+}
+ body {
+    margin: 0%;
+    padding: 0%;
+
+ }
+.image3 {
+    position:relative
+}
+ .btn1 {
+    background-color:red;
+    color: white;
+    font-weight: bold;
+           border-radius: 50%;
+       position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-10%, -20%);
+    -ms-transform: translate(-50%, -50%);
+ }
+ .btn1a {
+    background-color:red;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+       position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(700%, -20%);
+    -ms-transform: translate(-50%, -50%);
+ }
+ btn1b {
+    background-color:red;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+       position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(700%, -20%);
+    -ms-transform: translate(-50%, -50%);
+ }
+ btn1c {
+    background-color:red;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+       position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-20%, -20%);
+    -ms-transform: translate(50%, 50%);
+ }
+
+
+ .btn2 {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    position: absolute;
+   
+     top: 10%;
+    left: 0%;
+    transform: translate(40%, -20%);
+    -ms-transform: translate(-10%, -50%); 
+     }
+
+     .btn2a {
+        background-color: green;
+        color: white;
+    font-weight: bold;
+    border-radius: 50%;
+       position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(180%, -20%);
+    -ms-transform: translate(-50%, -50%); 
+     }
+
+     .btn2b {
+        background-color: green;
+        color: white;
+    font-weight: bold;
+    border-radius: 50%;
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        transform: translate(900%, -20%);
+        -ms-transform: translate(-50%, -50%); 
+     }
+     .btn2bc{
+        background-color: green;
+        color: white;
+    font-weight: bold;
+    border-radius: 50%;
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        transform: translate(900%, -50%);
+        -ms-transform: translate(-50%, -50%); 
+     }
+
+ .text1 {
+    text-align:left ;
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+ }
