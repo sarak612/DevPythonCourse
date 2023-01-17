@@ -1,0 +1,67 @@
+ *  body {
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+ }
+ body {
+    background-color: rgb(200, 192, 192);
+ }
+ ul {
+    list-style: none;
+    
+ }
+ main {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 33% 1fr;
+    gap: 1rem;
+ }
+ .personal, .skills, .languages {
+    padding: 1rem;
+ }
+ .left, .experience, .education {
+    background-color:white ;
+ }
+
+ .left-image img {
+    width: 100%;
+ }
+.left-image {
+    position:relative;
+   
+}
+.left-image h2 {
+    position: absolute;
+    bottom: 0%;
+    left: 1rem;
+    color: aliceblue;
+}
+h3 {
+    display: inline-block;
+}
+.downloadBtn {
+    background-color: teal;
+    color: white;
+    border-radius:10px;
+    height: 2rem;
+    text-align: center;
+}
+.experience, .education {
+   line-height: 1;
+   padding: 2rem;
+}
+.right {
+   background: white;
+   padding: 1rem;
+}
+
+h1 {
+   text-align: center;
+   color: gray;
+}
+footer {
+   background-color: teal;
+   padding: 2rem, 0;
+   text-align: center;
+   color: white;
+}
