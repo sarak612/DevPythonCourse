@@ -18,7 +18,7 @@ def remove_consec_letter_duplicates(word):
         if len(result_word) == 0:
             result_word += char
             prev_char = char
-        if char == prev_char:
+        if char == prev_char:  # it's redundant you can male it one if statment
             continue
         else:
             result_word += char
